@@ -12,6 +12,6 @@ class Projects:
     
 PROJECTS_DATA = [
     Projects("Proyecto mis animalitos", "Aplicacion para gestión de un zoológico.", False),
-    Projects("Proyecto de reciclaje", "Aplicación para promover el reciclaje en la comunidad.", True),
+    Projects("Proyecto de reciclaje", "Aplicación para promover el reciclaje en la comunidad.", False),
     Projects("Proyecto de agricultura urbana", "Aplicación para la gestión de huertos urbanos.", False),
 ]

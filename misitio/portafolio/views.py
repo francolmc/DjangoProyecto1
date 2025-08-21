@@ -13,4 +13,4 @@ def portafolio_home(request):
     # ]
     #
 
-    return render(request, 'portafolio_home.html', { 'projects': projects_not_draft })
+    return render(request, 'portafolio_home.html', { 'projects': projects_not_draft, 'datito': 'Algo asi no mas' })

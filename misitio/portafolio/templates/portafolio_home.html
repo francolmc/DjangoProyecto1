@@ -10,11 +10,14 @@
     <button class="btn btn-primary">Prueba</button>
     <h2>Lista de proyectos</h2>
     <ul>
+        {% for project in projects %}
         <li>
-            <b>Nombre</b>
+            <b>{{ project.title }}</b>
             <p>
-                Descripcion
+                {{ project.description }}
             </p>
         </li>
+        {% endfor %}
     </ul>
+    <p>{{ datito }}</p>
 {% endblock %}
